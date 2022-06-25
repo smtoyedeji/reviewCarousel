@@ -1,0 +1,195 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    background: rgb(247, 246, 246);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    margin: -20px 0 50px;
+    
+    
+}
+
+div#head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+
+.line-break {
+    border: 0;
+    width: 100px;
+    border-bottom: 5px solid darkblue;
+
+
+}
+
+section {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    width: 652px;
+    border-radius: 10px;
+    position: relative;
+    max-width: 100%;
+    min-height: 320px;
+    padding: 20px;
+    background: rgba(156, 169, 184, 0.89);
+}
+
+h4 {
+    font-size: 18px;
+    margin: 10px 0 0;
+    text-transform: capitalize;
+}
+
+p#location {
+    font-weight: bold;
+    text-transform: capitalize;
+    opacity: 0.4;
+    font-size: 12px;
+    margin: 2px 0 2px ;
+}
+
+
+.img-container {
+    height: 120px;
+   
+    
+    
+}
+
+img {
+    height:inherit;
+    width: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.review-stars {
+    margin: 10px auto;
+}
+
+.checked {
+    color: orange;
+  }
+
+p#review {
+    margin: 0 100px 40px;
+    font-weight: 500;
+    opacity: 0.8;
+    letter-spacing: 0.1px;
+    min-height: 100px;
+}
+
+.material-icons {
+    position: absolute;
+    top: 55%;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+.material-icons.left {
+    left: 7.5%;
+}
+
+.material-icons.right {
+    right: 7.5%;
+}
+
+
+.peach-ball-left {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 5px solid palevioletred;
+    background: palevioletred;
+    position: absolute;
+    top: 56%;
+    left: 8%;
+    opacity: 0.4;
+    pointer-events: none;
+    
+    
+}
+
+.peach-ball-right {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 5px solid palevioletred;
+    background: palevioletred;
+    position: absolute;
+    top: 56%;
+    right: 8%;
+    opacity: 0.3;
+    pointer-events: none;
+    
+}
+
+.red-ball {
+    width: 1px;
+    height: 1px;
+    border-radius: 50%;
+    border: 5px solid red;
+    background: red;
+    position: absolute;
+    top: 85%;
+    left: 20%;
+    opacity: 0.8;
+}
+
+.blue-ball {
+    width: 0.2px;
+    height: 0.2px;
+    border-radius: 50%;
+    border: 5px solid blue;
+    background: blue;
+    position: absolute;
+    top: 20%;
+    right: 20%;
+    opacity: 0.8;
+    
+}
+
+.peach-ball1 {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 5px solid rgb(218, 97, 137);
+    background: rgb(218, 97, 137);
+    position: absolute;
+    top: 90%;
+    right: 10%;
+    opacity: 0.9;    
+}
+
+.peach-ball2 {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: rgb(218, 97, 137);
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    opacity: 0.5;    
+}
+
+.peach-ball3 {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: rgb(218, 97, 137);
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    opacity: 0.2;    
+}
+
+
+
